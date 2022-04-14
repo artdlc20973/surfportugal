@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1549625935-e40596ba38fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #70f5c0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #70f5c0;
+  font-size: 1.2em;
+  padding: 1.1em;
+}
+
+.nav li a:hover {
+  color: #89a4ff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 250px auto;
+  padding: 0 4em;
+}
+
+h1 {
+  color: #70f5c0;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+p {
+  color: #89a4ff;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding: 0 0 1.8em 0;
+}
+  
+button {
+  border: none;
+  font-size: 1.6em;
+  background: #70f5c062;
+  padding: 12px 45px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #fff;
+  border-radius: 25px;
+  transition: all .5s ease-in;
+}
+
+button:hover {
+  background: #89a4ff69;
+  transform: translateY(9px);
+}
